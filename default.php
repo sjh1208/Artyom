@@ -5,11 +5,7 @@
 	{
 		echo "<script>window.location='en'</script>";
 	}
-	else if ($domain == "iryu.ru")
-	{
-		echo "<script>window.location='ru'</script>";
-	}
-	
+
 ?>
 <html>
 	<head>
