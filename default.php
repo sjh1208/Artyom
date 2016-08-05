@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <?php
 	$domain = $_SERVER['HTTP_HOST'];
+	if ($domain == "abray.us")
+	{
+		echo "<script>window.location='en'</script>";
+	}
+	else if ($domain == "iryu.ru")
+	{
+		echo "<script>window.location='ru'</script>";
+	}
+	
 ?>
 <html>
 	<head>

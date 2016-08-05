@@ -5,11 +5,11 @@
 ?>
 <html>
 	<head>
-		<title>Ouch!</title>
+		<title>أي صوت للتعبير عن الألم</title>
 	</head>
 	<body>
 		<style>
-			@import url('https://fonts.googleapis.com/css?family=Noto+Sans&subset=cyrillic');
+			@import url(http://fonts.googleapis.com/earlyaccess/notonaskharabicui.css);
 			body
 			{
 				margin: 0;
@@ -31,7 +31,7 @@
 				position: absolute;
 				z-index: 1;
 				text-align: center;
-				font-family: 'Noto Sans', sans-serif;
+				font-family: 'Noto Naskh Arabic UI', sans-serif;
 				color: white;
 	 			top: 50%;
 				left: 50%;
@@ -47,18 +47,18 @@
 		<div class="background"></div>
 		<div class="content">
 			<header>
-				<b><h1>I'm working on it!</h1></b>
+				<b><h1>!أنا أعمل على ذلك</h1></b>
 			</header>
 			<section>
-				<p>I'm developing brand new homepage for this.</p>
-				<p>Please use links below until job done. :)</p>
+				<p>.أنا تطوير العلامة التجارية موقع جديد لهذا</p>
+				<p>.يرجى استخدام الروابط أدناه حتى انجاز المهمة</p>
 								<nav>
-					<a href="https://blog.abray.us">Blog</a>  |   
-					<a href="https://github.com/andrewcell">Source on Github</a>
+					<a href="https://blog.abray.us">مدونة</a>  |   
+					<a href="https://github.com/andrewcell">المصدر على جيثب</a>
 				</nav>
 			</section>
 			<footer>		
-				<p>Contact : <a href="mailto:contact@<?=$domain?>" style="color: Black;">contact@<?=$domain?></a></p>
+				<p>تواصل بالبريد الاكتروني : <a href="mailto:contact@<?=$domain?>" style="color: Black;">contact@<?=$domain?></a></p>
 				<?=$menu?>				
 			</footer>
 		</div>
