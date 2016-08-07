@@ -8,7 +8,7 @@
 <a href='fr'><img src='flags/france.png' alt='français'</img></a>";
 
 	$domain = $_SERVER['HTTP_HOST'];
-
+	$local = null;
 	if($domain != "vxz.me")
 	{
 		$domain = "service.iryuweb.com";
