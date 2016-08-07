@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <?php
-	$domain = $_SERVER['HTTP_HOST'];
-	if ($domain == "abray.us")
-	{
+	include_once("langselect.php");
+	$return = true;
+	if (basename($_SERVER["SCRIPT_FILENAME"], '.php') == "kr")
+	{	
+		$return=false;
+	}
+	if  ($local == "abray.us" && $return == true) {
 		echo "<script>window.location='en'</script>";
 	}
-
-?>
+	
+?> 
 <html>
 	<head>
 		<title>어이쿠!</title>
