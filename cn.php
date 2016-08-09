@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
 	$domain = $_SERVER['HTTP_HOST'];
-	include_once("langselect.php");
+	include_once("script.php");
 ?>
 <html>
 	<head>

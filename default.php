@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-	include_once("langselect.php");
+	include_once("script.php");
 	$return = true;
 	if (basename($_SERVER["SCRIPT_FILENAME"], '.php') == "kr")
 	{	
@@ -9,7 +9,6 @@
 	if  ($local == "abray.us" && $return == true) {
 		echo "<script>window.location='en'</script>";
 	}
-	
 ?> 
 <html>
 	<head>
