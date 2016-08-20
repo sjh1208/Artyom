@@ -2,8 +2,7 @@
 <?php
 	include_once("script.php");
 	$return = true;
-	if (basename($_SERVER["SCRIPT_FILENAME"], '.php') == "kr")
-	{	
+	if (basename($_SERVER["SCRIPT_FILENAME"], '.php') == "kr" {	
 		$return=false;
 	}
 	if  ($local == "abray.us" && $return == true) {
